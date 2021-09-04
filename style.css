@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+/* :root{
+    --navbar-height : 59px;
+} */
+.center{
+    text-align: center;
+}
+.h-main{
+    text-shadow: black 2px 4px 2px;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 5rem;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+}
+#navbar switch{
+    align-items: flex-end;
+}
+
+#logo{
+margin-top: 4px;    
+}
+
+#logo img{
+    margin: 34px 45px;
+    height: 50px;
+    width: 50px;
+}
+ul{
+    display: flex;
+}
+#navbar{
+    position: fixed;
+height: 57px;
+width: 100vw;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.50;
+
+}
+#navbar ul li {
+    color: white;
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    font-family: 'Baloo Bhai 2', cursive;
+    color: white;
+    display: block;
+    padding: 3px 20px;
+    border-radius:20px;
+    font-size: 18px;
+text-decoration: none;}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+
+.search input{
+width: 300px;
+height: 35px;
+margin-left: 345px;
+}
+.sh-button{
+    padding: 9px 25px;
+margin: 2px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.sh-button:hover{
+    padding: 9px 25px;
+    margin: 2px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(32, 187, 58);
+    box-shadow: black -5px -1px -3px -4px;
+    border-radius: 4px;
+}
+
+.sh-button:active{
+    padding: 9px 25px;
+margin: 2px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(192, 188, 188);
+    box-shadow: black -5px -1px -3px -4px;
+    border-radius: 4px;
+}
+
+#contact-box button{
+margin-top: 674px;
+margin-left: 100px;
+}
+/* home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 99vh;
+ justify-content: center;
+ align-items: center;
+}
+#home::before{
+    content: "";
+    background: url(519.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    opacity: 0.85;
+
+}
+.h-primary{
+    /* font-size: 5rem; */
+    text-shadow: black 2px 4px 2px;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    background-color: black;
+    font-size: 3rem;
+    margin-top: 5px;
+}
+
+.services-container h1{ 
+}
+h2{
+color: white;
+text-shadow: black 2px 1px 4px;
+}
+
+p{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    text-shadow: black 1px 2px;
+
+}
+
+.box{
+    box-shadow: black 2px 3px 3px;
+}
+.box p{
+    color: black;
+    text-shadow: none;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn{
+    padding: 15px 60px;
+    margin: 30px;
+    background-color: rgb(199, 30, 30);
+    color: white;
+    cursor: pointer;
+    border: 2px solid white;
+
+}
+
+.btn:hover{
+    padding: 15px 60px;
+    margin: 30px;
+    background-color: rgb(32, 187, 58);
+    color: white;
+    box-shadow: black 1px 1px 3px -1px;
+}
+.btn:active{
+    padding: 15px 60px;
+    margin: 30px;
+    background-color: rgb(192, 188, 188);
+    color: white;
+    box-shadow: black -5px -1px -3px -4px;
+}
+
+#services{
+    margin: 0px;
+    display: flex;
+
+
+}
+#services .box{
+    background-color: rgb(226, 225, 214);
+    padding: 21px 30px;
+    margin: 5px 10px;
+    font-family: 'Baloo Bhai 2', cursive;
+
+    
+}
+#services .box img{
+    height: 160px;
+    margin: auto;
+    display: block;
+    padding: 15px 10px;
+    border: red 2px solid;
+}
+/* client section */
+.client-item{
+padding: 34px;
+}
+
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clients img{
+    height: 150px;
+}
+
+footer{
+background-color: black;
+color: white;
+padding: 10px 20px;
+
+
+}
+/* contact section  */
+#contact-box{
+    display: flex;
+justify-content: center;
+align-items: center;
+padding-bottom: 50px;
+height: 750px;
+background: url(contact.jpg) center center no-repeat;
+}
+#contact-box form{
+ width: 40%;
+}
+
+#contact-box label{
+    display: inline-block;
+font-size: 1.3rem;
+font-family: 'Baloo Bhai 2', cursive;
+width: 114%;
+
+}
+#contact-box textarea{
+width: 113%;
+padding: 0.5rem;
+border-radius: 3px;
+height: 347px;
+}
+#contact-box input {
+height: 40px;
+    width: 116%;
+}
